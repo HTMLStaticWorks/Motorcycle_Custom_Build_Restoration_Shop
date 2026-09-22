@@ -3832,6 +3832,11 @@ img.iv-timeline__image {
     color: rgba(232, 227, 219, 0.4);
 }
 
+[data-theme="dark"] .iv-footer__bottom-link:hover,
+[data-theme="dark"] .iv-footer__social-link:hover {
+    color: var(--color-accent);
+}
+
 /* 2. RTL and theme icon inside hamburger in light mode */
 .iv-mobile-nav__toggle {
     color: var(--text-primary);
@@ -3853,9 +3858,10 @@ img.iv-timeline__image {
     border-color: var(--color-secondary);
 }
 
-/* 3. Home1 hero section button same size in mob view */
+/* 3. Home1 hero & CTA section button same size in mob view */
 @media (max-width: 575px) {
-    .iv-hero__actions .iv-btn {
+    .iv-hero__actions .iv-btn,
+    .iv-cta__actions .iv-btn {
         width: 100%;
         justify-content: center;
         box-sizing: border-box;
@@ -3873,7 +3879,7 @@ img.iv-timeline__image {
     }
 
     .iv-hero--split .iv-hero__left .iv-hero__actions {
-        justify-content: center;
+        justify-content: center !important;
     }
 }
 
@@ -3884,6 +3890,7 @@ img.iv-timeline__image {
         grid-template-columns: repeat(2, 1fr);
         gap: var(--space-xl);
         padding-top: 0;
+        padding-inline-start: 0;
     }
 
     .iv-timeline__line,
@@ -3912,6 +3919,7 @@ img.iv-timeline__image {
 @media (max-width: 575px) {
     .iv-timeline {
         grid-template-columns: 1fr;
+        padding-inline: 0;
     }
 }
 
@@ -4128,4 +4136,15 @@ img.iv-timeline__image {
     justify-content: center;
     padding: 1rem 2rem;
     margin-top: auto;
+}
+
+@media (max-width: 767px) {
+    .iv-estimator--full {
+        padding: 1.5rem !important;
+    }
+}
+
+/* Social icons margin in first column */
+.iv-footer__grid > div:first-child .iv-footer__social {
+    margin-top: var(--space-lg);
 }
