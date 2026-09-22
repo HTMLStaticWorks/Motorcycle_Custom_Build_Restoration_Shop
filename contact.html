@@ -1,0 +1,498 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact The Workshop | Ironvolt</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="description"
+    content="Contact Ironvolt Motorcycles to discuss your next custom build, restoration project, or fabrication needs.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact The Workshop | Ironvolt">
+  <meta property="og:description"
+    content="Contact Ironvolt Motorcycles to discuss your next custom build or restoration project.">
+  <meta property="og:image" content="assets/images/workshop.jpg">
+  <link rel="canonical" href="https://example-ironvolt.com/pages/contact.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <a href="#main-content" class="iv-skip-link">Skip to content</a>
+
+  <!-- ============================================ -->
+  <!-- HEADER / NAVBAR                              -->
+  <!-- ============================================ -->
+  <header class="iv-header">
+    <div class="iv-container">
+      <div class="iv-header__inner">
+        <a href="../index.html" class="iv-logo" aria-label="Ironvolt Motorcycles Home">
+          <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
+            <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
+            <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+          </svg>
+          <div class="iv-logo__text">
+            <span class="iv-logo__name">Ironvolt</span>
+          </div>
+        </a>
+
+        <nav class="iv-nav" aria-label="Main Navigation">
+          <a href="index.html" class="iv-nav__link">Home</a>
+          <a href="home-2.html" class="iv-nav__link">Home 2</a>
+          <a href="about.html" class="iv-nav__link">About</a>
+          <a href="services.html" class="iv-nav__link">Services</a>
+          <a href="portfolio.html" class="iv-nav__link">Portfolio</a>
+          <a href="pricing-guide.html" class="iv-nav__link">Pricing Guide</a>
+          <a href="contact.html" class="iv-nav__link active">Contact</a>
+        </nav>
+
+        <div class="iv-header__actions">
+          <button class="iv-header__action-btn js-rtl-toggle" aria-label="Toggle RTL">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 12h18" />
+              <path d="M3 12l6-6" />
+              <path d="M3 12l6 6" />
+            </svg>
+          </button>
+          <button class="iv-header__action-btn js-theme-toggle" aria-label="Toggle Theme"></button>
+          <div class="iv-header__cta">
+            <a href="enquiry.html" class="iv-btn iv-btn--primary iv-btn--sm ">
+              Project Enquiry
+              <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <button class="iv-hamburger" aria-label="Toggle Mobile Menu" aria-expanded="false">
+          <span class="iv-hamburger__lines">
+            <span class="iv-hamburger__line"></span>
+            <span class="iv-hamburger__line"></span>
+            <span class="iv-hamburger__line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="iv-mobile-nav"><button class="iv-mobile-nav__close js-mobile-close" aria-label="Close Menu"><svg
+        xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg></button>
+    <a href="index.html" class="iv-mobile-nav__link">Home</a>
+    <a href="home-2.html" class="iv-mobile-nav__link">Home 2</a>
+    <a href="about.html" class="iv-mobile-nav__link">About</a>
+    <a href="services.html" class="iv-mobile-nav__link">Services</a>
+    <a href="portfolio.html" class="iv-mobile-nav__link">Portfolio</a>
+    <a href="pricing-guide.html" class="iv-mobile-nav__link">Pricing Guide</a>
+    <a href="contact.html" class="iv-mobile-nav__link active">Contact</a>
+
+    <div class="iv-mobile-nav__cta">
+      <a href="enquiry.html" class="iv-btn iv-btn--primary" style="width: 100%; justify-content: center;">
+        Project Enquiry
+      </a>
+    </div>
+
+    <div class="iv-mobile-nav__controls">
+      <button class="iv-mobile-nav__toggle js-theme-toggle">Dark Mode</button>
+      <button class="iv-mobile-nav__toggle js-rtl-toggle">RTL Mode</button>
+    </div>
+  </div>
+  <div class="iv-mobile-overlay"></div>
+
+  <main id="main-content">
+
+    <!-- ============================================ -->
+    <!-- SECTION 01 — HERO                            -->
+    <!-- ============================================ -->
+    <section class="iv-hero iv-hero--page">
+      <div class="iv-hero__bg">
+        <img src="assets/images/contact-hero.jpg" alt="Dark workshop interior" loading="eager">
+      </div>
+      <div class="iv-hero__overlay"></div>
+
+      <div class="iv-container">
+        <div class="iv-hero__content iv-reveal iv-reveal--left">
+
+          <h1 class="iv-hero__title">GET IN TOUCH.</h1>
+          <p class="iv-hero__subtitle">Every build starts with a conversation. Let us know what you have and what you
+            want to achieve.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 02 — CONTACT INFO & FORM             -->
+    <!-- ============================================ -->
+    <section class="iv-section iv-section--dark">
+      <div class="iv-container">
+        <div class="iv-split align-items-start">
+
+          <div class="iv-reveal iv-reveal--left">
+            <div class="section-number mb-3">01 // DETAILS</div>
+            <h2>THE WORKSHOP</h2>
+
+            <div class="mt-5">
+              <h4 class="mb-2">Location</h4>
+              <p class="text-muted">123 Industrial Parkway, Unit B<br>Moto District, CA 90210</p>
+
+              <h4 class="mt-4 mb-2">Contact</h4>
+              <p class="text-muted mb-1">builds@example-ironvolt.com</p>
+              <p class="text-muted">+1 (555) 123-4567</p>
+
+              <h4 class="mt-4 mb-2">Hours (By Appointment)</h4>
+              <p class="text-muted mb-1">Monday - Friday: 9am - 6pm</p>
+              <p class="text-muted">Saturday: 10am - 2pm</p>
+
+              <!-- Social Icons -->
+              <h4 class="mt-4 mb-3">Follow The Build</h4>
+              <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                <a href="#" aria-label="Instagram"
+                  style="width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);display:flex;align-items:center;justify-content:center;transition:transform 0.2s,opacity 0.2s;"
+                  onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transform='scale(1)'">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="white" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+                <a href="#" aria-label="Facebook"
+                  style="width:44px;height:44px;border-radius:8px;background:#1877F2;display:flex;align-items:center;justify-content:center;transition:transform 0.2s;"
+                  onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transform='scale(1)'">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="white" stroke-width="2">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                  </svg>
+                </a>
+                <a href="#" aria-label="YouTube"
+                  style="width:44px;height:44px;border-radius:8px;background:#FF0000;display:flex;align-items:center;justify-content:center;transition:transform 0.2s;"
+                  onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transform='scale(1)'">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="white" stroke-width="2">
+                    <path
+                      d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                    </path>
+                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                  </svg>
+                </a>
+                <a href="#" aria-label="WhatsApp"
+                  style="width:44px;height:44px;border-radius:8px;background:#25D366;display:flex;align-items:center;justify-content:center;transition:transform 0.2s;"
+                  onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transform='scale(1)'">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                  </svg>
+                </a>
+                <a href="#" aria-label="Twitter / X"
+                  style="width:44px;height:44px;border-radius:8px;background:#111;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;transition:transform 0.2s;"
+                  onmouseover="this.style.transform='scale(1.12)'" onmouseout="this.style.transform='scale(1)'">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="white">
+                    <path
+                      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                  </svg>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="iv-reveal iv-reveal--right">
+            <div class="section-number mb-3">02 // MESSAGE</div>
+            <h2>SEND A MESSAGE</h2>
+
+            <form class="iv-form iv-form--2col mt-4 js-validate" novalidate>
+              <div class="iv-form__group iv-form__group--full">
+                <label class="iv-form__label">Full Name</label>
+                <input type="text" class="iv-form__input" required>
+                <div class="iv-form__error">Name is required</div>
+              </div>
+              <div class="iv-form__group">
+                <label class="iv-form__label">Email Address</label>
+                <input type="email" class="iv-form__input" required>
+                <div class="iv-form__error">Valid email is required</div>
+              </div>
+              <div class="iv-form__group">
+                <label class="iv-form__label">Phone Number</label>
+                <input type="tel" class="iv-form__input">
+              </div>
+              <div class="iv-form__group iv-form__group--full">
+                <label class="iv-form__label">Subject</label>
+                <select class="iv-form__select" required>
+                  <option value="">Select a topic...</option>
+                  <option value="build">Custom Build Enquiry</option>
+                  <option value="restoration">Restoration Project</option>
+                  <option value="fabrication">Fabrication Service</option>
+                  <option value="general">General Question</option>
+                </select>
+                <div class="iv-form__error">Subject is required</div>
+              </div>
+
+
+              <div class="iv-form__group iv-form__group--full">
+                <label class="iv-form__label">Message</label>
+                <textarea class="iv-form__textarea" placeholder="Tell us about your project..." rows="5"
+                  required></textarea>
+                <div class="iv-form__error">Message is required</div>
+              </div>
+              <div class="iv-form__group iv-form__group--full mt-2">
+                <button type="submit" class="iv-btn iv-btn--primary">Send Message</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 03 — FAQ                             -->
+    <!-- ============================================ -->
+    <section class="iv-section">
+      <div class="iv-container">
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 4rem; align-items: start;">
+          <div class="iv-reveal">
+            <div class="section-number mb-3">03 // FAQ</div>
+            <h2 style="font-size: clamp(1.5rem, 3vw, 2.5rem);">QUICK<br>ANSWERS.</h2>
+            <p class="mt-3" style="font-size:0.9rem;">Common questions about visiting the workshop and starting a
+              project.</p>
+            <a href="enquiry.html" class="iv-btn iv-btn--primary iv-btn--sm mt-4"
+              style="display:inline-flex;margin-top:1.5rem;">
+              Start An Enquiry
+              <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+          <div class="iv-reveal iv-reveal--right">
+            <details style="border-top: 1px solid var(--border-color); padding: 1.25rem 0;" open>
+              <summary
+                style="font-family:var(--font-heading);font-size:1rem;letter-spacing:0.05em;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:var(--text-heading);">
+                Do I need to bring my bike in person?
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" style="flex-shrink:0;">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </summary>
+              <p style="margin-top:0.75rem;font-size:0.9rem;color:var(--text-secondary);max-width:100%;">Yes — we do an
+                in-person assessment for every project before committing to a scope. Photos are a great starting point
+                but we need to see the machine in the flesh before quoting.</p>
+            </details>
+            <details style="border-top: 1px solid var(--border-color); padding: 1.25rem 0;">
+              <summary
+                style="font-family:var(--font-heading);font-size:1rem;letter-spacing:0.05em;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:var(--text-heading);">
+                How quickly do you respond to enquiries?
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" style="flex-shrink:0;">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </summary>
+              <p style="margin-top:0.75rem;font-size:0.9rem;color:var(--text-secondary);max-width:100%;">We aim to
+                respond to all enquiries within 48 hours. For urgent matters, call us directly during workshop hours.
+              </p>
+            </details>
+            <details style="border-top: 1px solid var(--border-color); padding: 1.25rem 0;">
+              <summary
+                style="font-family:var(--font-heading);font-size:1rem;letter-spacing:0.05em;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:var(--text-heading);">
+                Are you open to walk-ins?
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" style="flex-shrink:0;">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </summary>
+              <p style="margin-top:0.75rem;font-size:0.9rem;color:var(--text-secondary);max-width:100%;">The workshop
+                operates by appointment only. This ensures each client gets full attention from the team when they
+                visit. Book via the enquiry form or phone.</p>
+            </details>
+            <details style="border-top: 1px solid var(--border-color); padding: 1.25rem 0;">
+              <summary
+                style="font-family:var(--font-heading);font-size:1rem;letter-spacing:0.05em;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:var(--text-heading);">
+                Can I visit during the build?
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" style="flex-shrink:0;">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </summary>
+              <p style="margin-top:0.75rem;font-size:0.9rem;color:var(--text-secondary);max-width:100%;">Absolutely. We
+                schedule milestone check-ins at key stages so you can see progress in person. Regular photo updates are
+                also sent throughout.</p>
+            </details>
+            <details
+              style="border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 1.25rem 0;">
+              <summary
+                style="font-family:var(--font-heading);font-size:1rem;letter-spacing:0.05em;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;color:var(--text-heading);">
+                Do you ship bikes after completion?
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" style="flex-shrink:0;">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </summary>
+              <p style="margin-top:0.75rem;font-size:0.9rem;color:var(--text-secondary);max-width:100%;">We can arrange
+                enclosed transport for completed builds anywhere in the continental US. International shipping can be
+                organized on request with a specialist freight partner.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 04 — GOOGLE MAP                      -->
+    <!-- ============================================ -->
+    <section style="margin:0;padding:0;line-height:0;">
+      <div style="position:relative;width:100%;height:460px;overflow:hidden;">
+        <div
+          style="position:absolute;top:2rem;left:2rem;z-index:10;background:var(--bg-card);border:1px solid var(--border-color);padding:1.25rem 1.5rem;box-shadow:var(--shadow-lg);line-height:1.5;">
+          <div
+            style="font-family:var(--font-heading);font-size:0.65rem;letter-spacing:0.14em;color:var(--text-secondary);margin-bottom:0.35rem;">
+            FIND US</div>
+          <div style="font-family:var(--font-heading);font-size:1.05rem;font-weight:700;color:var(--text-heading);">
+            IRONVOLT MOTORCYCLES</div>
+          <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:0.25rem;">123 Industrial Parkway, Unit
+            B<br>Moto District, CA 90210</div>
+          <a href="https://maps.google.com" target="_blank" rel="noopener"
+            style="display:inline-flex;align-items:center;gap:0.4rem;margin-top:0.75rem;font-size:0.72rem;font-family:var(--font-heading);letter-spacing:0.1em;color:var(--color-secondary);">
+            GET DIRECTIONS
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.8234591!2d-118.2436849!3d34.0522342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22feda2f6b4b9d5!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1695000000000!5m2!1sen!2sus"
+          width="100%" height="460" style="border:0;display:block;filter:grayscale(25%) contrast(1.05);"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Ironvolt Motorcycles Location">
+        </iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="iv-footer">
+    <div class="iv-container">
+      <div class="iv-footer__grid">
+
+        <div>
+          <a href="index.html" class="iv-logo mb-4" aria-label="Ironvolt Motorcycles Home"
+            style="display: flex; align-items: center; gap: 0.75rem;">
+            <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
+              <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
+              <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+            </svg>
+            <div class="iv-logo__text" style="text-align: left;">
+              <span class="iv-footer__brand-name"
+                style="margin-bottom: 0; line-height: 1; display: block;">IRONVOLT</span>
+            </div>
+          </a>
+          <p class="iv-footer__brand-text">Premium custom motorcycle build and restoration workshop specializing in
+            handcrafted motorcycles, fabrication, and bespoke mechanical work.</p>
+        </div>
+
+        <div>
+          <h4 class="iv-footer__heading">EXPLORE</h4>
+          <div class="iv-footer__links">
+            <a href="index.html" class="iv-footer__link">Home</a>
+            <a href="home-2.html" class="iv-footer__link">Home 2</a>
+            <a href="about.html" class="iv-footer__link">About</a>
+            <a href="services.html" class="iv-footer__link">Services</a>
+            <a href="portfolio.html" class="iv-footer__link">Portfolio</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="iv-footer__heading">WORKSHOP</h4>
+          <div class="iv-footer__links">
+            <a href="services.html#restoration" class="iv-footer__link">Restoration</a>
+            <a href="services.html#custom" class="iv-footer__link">Custom Builds</a>
+            <a href="services.html#fabrication" class="iv-footer__link">Fabrication</a>
+            <a href="services.html#engine" class="iv-footer__link">Engine Rebuilds</a>
+            <a href="pricing-guide.html" class="iv-footer__link">Pricing Guide</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="iv-footer__heading">CONTACT</h4>
+          <div class="iv-footer__contact-item">
+            <div class="iv-footer__contact-label">Address</div>
+            <div class="iv-footer__contact-value">123 Industrial Parkway, Unit B<br>Moto District, CA 90210</div>
+          </div>
+          <div class="iv-footer__contact-item">
+            <div class="iv-footer__contact-label">Phone</div>
+            <div class="iv-footer__contact-value">+1 (555) 123-4567</div>
+          </div>
+          <div class="iv-footer__contact-item">
+            <div class="iv-footer__contact-label">Email</div>
+            <div class="iv-footer__contact-value">builds@example-ironvolt.com</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="iv-footer__bottom">
+        <div class="iv-footer__copyright">
+          &copy; 2026 Ironvolt Motorcycles. All Rights Reserved.
+        </div>
+        <div class="iv-footer__social">
+          <a href="#" class="iv-footer__social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="#" class="iv-footer__social-link" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+          <a href="#" class="iv-footer__social-link" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+              </path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="iv-modal-overlay"></div>
+  <div class="iv-modal" id="enquiryModal">
+    <div class="iv-modal__header">
+      <h2 class="iv-modal__title">START A PROJECT</h2>
+      <button class="iv-modal__close">Close</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

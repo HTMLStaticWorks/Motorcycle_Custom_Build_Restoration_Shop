@@ -1,0 +1,482 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Motorcycle Builds & Restoration Portfolio | Ironvolt</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="description"
+    content="Explore our portfolio of custom motorcycle builds, restorations, cafe racers, bobbers, and scramblers.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Custom Motorcycle Builds Portfolio | Ironvolt">
+  <meta property="og:description"
+    content="Explore our portfolio of custom motorcycle builds, restorations, cafe racers, bobbers, and scramblers.">
+  <meta property="og:image" content="assets/images/custom-build.jpg">
+  <link rel="canonical" href="https://example-ironvolt.com/pages/portfolio.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <a href="#main-content" class="iv-skip-link">Skip to content</a>
+
+  <!-- ============================================ -->
+  <!-- HEADER / NAVBAR                              -->
+  <!-- ============================================ -->
+  <header class="iv-header">
+    <div class="iv-container">
+      <div class="iv-header__inner">
+        <a href="../index.html" class="iv-logo" aria-label="Ironvolt Motorcycles Home">
+          <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
+            <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
+            <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+          </svg>
+          <div class="iv-logo__text">
+            <span class="iv-logo__name">Ironvolt</span>
+          </div>
+        </a>
+
+        <nav class="iv-nav" aria-label="Main Navigation">
+          <a href="index.html" class="iv-nav__link">Home</a>
+          <a href="home-2.html" class="iv-nav__link">Home 2</a>
+          <a href="about.html" class="iv-nav__link">About</a>
+          <a href="services.html" class="iv-nav__link">Services</a>
+          <a href="portfolio.html" class="iv-nav__link active">Portfolio</a>
+          <a href="pricing-guide.html" class="iv-nav__link">Pricing Guide</a>
+          <a href="contact.html" class="iv-nav__link">Contact</a>
+        </nav>
+
+        <div class="iv-header__actions">
+          <button class="iv-header__action-btn js-rtl-toggle" aria-label="Toggle RTL">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 12h18" />
+              <path d="M3 12l6-6" />
+              <path d="M3 12l6 6" />
+            </svg>
+          </button>
+          <button class="iv-header__action-btn js-theme-toggle" aria-label="Toggle Theme"></button>
+          <div class="iv-header__cta">
+            <a href="enquiry.html" class="iv-btn iv-btn--primary iv-btn--sm ">
+              Project Enquiry
+              <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <button class="iv-hamburger" aria-label="Toggle Mobile Menu" aria-expanded="false">
+          <span class="iv-hamburger__lines">
+            <span class="iv-hamburger__line"></span>
+            <span class="iv-hamburger__line"></span>
+            <span class="iv-hamburger__line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="iv-mobile-nav"><button class="iv-mobile-nav__close js-mobile-close" aria-label="Close Menu"><svg
+        xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg></button>
+    <a href="index.html" class="iv-mobile-nav__link">Home</a>
+    <a href="home-2.html" class="iv-mobile-nav__link">Home 2</a>
+    <a href="about.html" class="iv-mobile-nav__link">About</a>
+    <a href="services.html" class="iv-mobile-nav__link">Services</a>
+    <a href="portfolio.html" class="iv-mobile-nav__link active">Portfolio</a>
+    <a href="pricing-guide.html" class="iv-mobile-nav__link">Pricing Guide</a>
+    <a href="contact.html" class="iv-mobile-nav__link">Contact</a>
+
+    <div class="iv-mobile-nav__cta">
+      <a href="enquiry.html" class="iv-btn iv-btn--primary" style="width: 100%; justify-content: center;">
+        Project Enquiry
+      </a>
+    </div>
+
+    <div class="iv-mobile-nav__controls">
+      <button class="iv-mobile-nav__toggle js-theme-toggle">Dark Mode</button>
+      <button class="iv-mobile-nav__toggle js-rtl-toggle">RTL Mode</button>
+    </div>
+  </div>
+  <div class="iv-mobile-overlay"></div>
+
+  <main id="main-content">
+
+    <!-- ============================================ -->
+    <!-- SECTION 01 — HERO                            -->
+    <!-- ============================================ -->
+    <section class="iv-hero iv-hero--page">
+      <div class="iv-hero__bg">
+        <img src="assets/images/portfolio-hero.jpg" alt="Custom Builds" loading="eager">
+      </div>
+      <div class="iv-hero__overlay"></div>
+
+      <div class="iv-container">
+        <div class="iv-hero__content iv-reveal iv-reveal--left">
+
+          <h1 class="iv-hero__title">BUILDS WITH<br>CHARACTER.</h1>
+          <p class="iv-hero__subtitle">Explore our recent custom motorcycle builds, restorations, and mechanical
+            projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 02 — FILTERABLE GALLERY              -->
+    <!-- ============================================ -->
+    <section class="iv-section iv-section--dark">
+      <div class="iv-container">
+        <div class="iv-gallery__filters iv-reveal mb-5">
+          <button class="iv-gallery__filter active" data-filter="all">ALL</button>
+          <button class="iv-gallery__filter" data-filter="custom-builds">CUSTOM BUILDS</button>
+          <button class="iv-gallery__filter" data-filter="restoration">RESTORATION</button>
+          <button class="iv-gallery__filter" data-filter="fabrication">FABRICATION</button>
+          <button class="iv-gallery__filter" data-filter="engine">ENGINE</button>
+          <button class="iv-gallery__filter" data-filter="cafe-racer">CAFE RACER</button>
+          <button class="iv-gallery__filter" data-filter="bobber">BOBBER</button>
+          <button class="iv-gallery__filter" data-filter="scrambler">SCRAMBLER</button>
+        </div>
+
+        <div class="iv-gallery__grid">
+          <!-- Item 1 -->
+          <div class="iv-gallery__item iv-reveal iv-reveal--d1" data-category="custom-builds">
+            <img class="iv-gallery__item-img" src="assets/images/gallery1.jpg" alt="Custom Build" loading="lazy">
+            <div class="iv-gallery__item-overlay">
+              <span class="iv-gallery__item-category">CUSTOM BUILDS</span>
+              <h3 class="iv-gallery__item-title">THE NIGHT SHIFT</h3>
+              <div class="iv-gallery__item-meta">Sample Project &bull; Cafe Racer</div>
+              <a href="#" class="iv-gallery__item-link js-lightbox" data-title="THE NIGHT SHIFT"
+                data-cat="Custom Build">
+                VIEW PROJECT
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+            <div class="iv-gallery__item-border"></div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="iv-gallery__item iv-reveal iv-reveal--d2" data-category="restoration">
+            <img class="iv-gallery__item-img" src="assets/images/gallery2.jpg" alt="Restoration" loading="lazy">
+            <div class="iv-gallery__item-overlay">
+              <span class="iv-gallery__item-category">RESTORATION</span>
+              <h3 class="iv-gallery__item-title">FACTORY SPEC</h3>
+              <div class="iv-gallery__item-meta">Sample Project &bull; Classic</div>
+              <a href="#" class="iv-gallery__item-link js-lightbox" data-title="FACTORY SPEC" data-cat="Restoration">
+                VIEW PROJECT
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+            <div class="iv-gallery__item-border"></div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="iv-gallery__item iv-reveal iv-reveal--d3" data-category="fabrication">
+            <img class="iv-gallery__item-img" src="assets/images/gallery3.jpg" alt="Fabrication" loading="lazy">
+            <div class="iv-gallery__item-overlay">
+              <span class="iv-gallery__item-category">FABRICATION</span>
+              <h3 class="iv-gallery__item-title">RAW METAL</h3>
+              <div class="iv-gallery__item-meta">Sample Project &bull; Subframe Mods</div>
+              <a href="#" class="iv-gallery__item-link js-lightbox" data-title="RAW METAL" data-cat="Fabrication">
+                VIEW PROJECT
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+            <div class="iv-gallery__item-border"></div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="iv-gallery__item iv-reveal iv-reveal--d4" data-category="bobber">
+            <img class="iv-gallery__item-img" src="assets/images/gallery4.jpg" alt="Bobber" loading="lazy">
+            <div class="iv-gallery__item-overlay">
+              <span class="iv-gallery__item-category">BOBBER</span>
+              <h3 class="iv-gallery__item-title">IRON CLAD</h3>
+              <div class="iv-gallery__item-meta">Sample Project &bull; Hardtail</div>
+              <a href="#" class="iv-gallery__item-link js-lightbox" data-title="IRON CLAD" data-cat="Bobber">
+                VIEW PROJECT
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+            <div class="iv-gallery__item-border"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 03 — FEATURED PROJECT                -->
+    <!-- ============================================ -->
+    <section class="iv-section">
+      <div class="iv-container">
+        <div class="text-center mb-5 iv-reveal">
+          <div class="section-number mb-3">FEATURED</div>
+          <h2>THE SCRAMBLER BUILD</h2>
+        </div>
+
+        <div class="iv-featured-project iv-reveal">
+          <img src="assets/images/scrambler.jpg" alt="Scrambler Project" class="iv-featured-project__img">
+
+          <div class="iv-featured-project__info">
+            <h3 class="mb-3">PROJECT: DIRT TRACKER</h3>
+            <p>A complete frame-up build designed for both street and off-road capability. This machine features
+              elevated ground clearance, custom fabricated high-mount exhausts, and a complete engine rebuild optimized
+              for mid-range torque.</p>
+
+            <div class="iv-featured-project__meta">
+              <div class="iv-featured-project__meta-item">
+                <span class="iv-featured-project__meta-label">Build Type</span>
+                <span class="iv-featured-project__meta-value">Scrambler / Tracker</span>
+              </div>
+              <div class="iv-featured-project__meta-item">
+                <span class="iv-featured-project__meta-label">Project Year</span>
+                <span class="iv-featured-project__meta-value">Sample Project</span>
+              </div>
+              <div class="iv-featured-project__meta-item">
+                <span class="iv-featured-project__meta-label">Scope</span>
+                <span class="iv-featured-project__meta-value">Full Custom Rebuild</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 04 — BUILD DETAIL GALLERY            -->
+    <!-- ============================================ -->
+    <section class="iv-section pb-0">
+      <div class="iv-container">
+        <div class="mb-4 iv-reveal">
+          <div class="section-number mb-3">DETAILS</div>
+          <h2>BUILD CLOSE-UPS</h2>
+        </div>
+
+        <div class="iv-detail-gallery iv-reveal iv-reveal--d1">
+          <!-- Lightbox Trigger -->
+          <a href="assets/images/detail1.jpg" class="iv-detail-gallery__item js-lightbox" data-title="Engine Detail"
+            data-cat="Detail">
+            <img src="assets/images/detail1.jpg" alt="Engine Close-up" loading="lazy">
+            <span class="iv-detail-gallery__item-label">ENGINE</span>
+          </a>
+
+          <a href="assets/images/detail2.jpg" class="iv-detail-gallery__item js-lightbox" data-title="Exhaust Detail"
+            data-cat="Detail">
+            <img src="assets/images/detail2.jpg" alt="Exhaust Close-up" loading="lazy">
+            <span class="iv-detail-gallery__item-label">EXHAUST</span>
+          </a>
+
+          <a href="assets/images/detail3.jpg" class="iv-detail-gallery__item js-lightbox" data-title="Tank Finish"
+            data-cat="Detail">
+            <img src="assets/images/detail3.jpg" alt="Tank Finish" loading="lazy">
+            <span class="iv-detail-gallery__item-label">FINISH</span>
+          </a>
+
+          <a href="assets/images/detail4.jpg" class="iv-detail-gallery__item js-lightbox" data-title="Cockpit Controls"
+            data-cat="Detail">
+            <img src="assets/images/detail4.jpg" alt="Cockpit Close-up" loading="lazy">
+            <span class="iv-detail-gallery__item-label">COCKPIT</span>
+          </a>
+
+          <a href="assets/images/detail5.jpg" class="iv-detail-gallery__item js-lightbox" data-title="Frame Welding"
+            data-cat="Detail">
+            <img src="assets/images/detail5.jpg" alt="Welding Detail" loading="lazy">
+            <span class="iv-detail-gallery__item-label">FRAME</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 05 — CTA                             -->
+    <!-- ============================================ -->
+    <section class="iv-cta iv-section border-top border-subtle mt-5">
+      <div class="iv-container">
+        <div class="iv-reveal iv-reveal--scale">
+          <h2>HAVE A BUILD IN MIND?</h2>
+          <p>Tell us what you're starting with, what you want to change, and where you want the build to go.</p>
+
+          <div class="iv-cta__actions mt-5">
+            <a href="enquiry.html" class="iv-btn iv-btn--primary ">
+              Start Project Enquiry
+              <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================ -->
+  <!-- LIGHTBOX MODAL                               -->
+  <!-- ============================================ -->
+  <div class="iv-lightbox" aria-modal="true" role="dialog">
+    <button class="iv-lightbox__close" aria-label="Close Gallery">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    <button class="iv-lightbox__nav iv-lightbox__nav--prev" aria-label="Previous Image">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+    </button>
+    <img src="" alt="Enlarged gallery image" class="iv-lightbox__img">
+    <button class="iv-lightbox__nav iv-lightbox__nav--next" aria-label="Next Image">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+    <div class="iv-lightbox__caption">
+      <div class="iv-lightbox__caption-cat"></div>
+      <div class="iv-lightbox__caption-title"></div>
+    </div>
+  </div>
+
+  <!-- ============================================ -->
+  <!-- FOOTER & MODAL                               -->
+  <!-- ============================================ -->
+  <footer class="iv-footer">
+    <div class="iv-container">
+      <div class="iv-footer__grid">
+
+        <div>
+          <a href="index.html" class="iv-logo mb-4" aria-label="Ironvolt Motorcycles Home"
+            style="display: flex; align-items: center; gap: 0.75rem;">
+            <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
+              <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
+              <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+            </svg>
+            <div class="iv-logo__text" style="text-align: left;">
+              <span class="iv-footer__brand-name"
+                style="margin-bottom: 0; line-height: 1; display: block;">IRONVOLT</span>
+            </div>
+          </a>
+          <p class="iv-footer__brand-text">Premium custom motorcycle build and restoration workshop specializing in
+            handcrafted motorcycles, fabrication, and bespoke mechanical work.</p>
+        </div>
+
+        <div>
+          <h4 class="iv-footer__heading">EXPLORE</h4>
+          <div class="iv-footer__links">
+            <a href="index.html" class="iv-footer__link">Home</a>
+            <a href="home-2.html" class="iv-footer__link">Home 2</a>
+            <a href="about.html" class="iv-footer__link">About</a>
+            <a href="services.html" class="iv-footer__link">Services</a>
+            <a href="portfolio.html" class="iv-footer__link">Portfolio</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="iv-footer__heading">WORKSHOP</h4>
+          <div class="iv-footer__links">
+            <a href="services.html#restoration" class="iv-footer__link">Restoration</a>
+            <a href="services.html#custom" class="iv-footer__link">Custom Builds</a>
+            <a href="services.html#fabrication" class="iv-footer__link">Fabrication</a>
+            <a href="services.html#engine" class="iv-footer__link">Engine Rebuilds</a>
+            <a href="pricing-guide.html" class="iv-footer__link">Pricing Guide</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="iv-footer__heading">CONTACT</h4>
+          <div class="iv-footer__contact-item">
+            <div class="iv-footer__contact-label">Address</div>
+            <div class="iv-footer__contact-value">123 Industrial Parkway, Unit B<br>Moto District, CA 90210</div>
+          </div>
+          <div class="iv-footer__contact-item">
+            <div class="iv-footer__contact-label">Phone</div>
+            <div class="iv-footer__contact-value">+1 (555) 123-4567</div>
+          </div>
+          <div class="iv-footer__contact-item">
+            <div class="iv-footer__contact-label">Email</div>
+            <div class="iv-footer__contact-value">builds@example-ironvolt.com</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="iv-footer__bottom">
+        <div class="iv-footer__copyright">
+          &copy; 2026 Ironvolt Motorcycles. All Rights Reserved.
+        </div>
+        <div class="iv-footer__social">
+          <a href="#" class="iv-footer__social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="#" class="iv-footer__social-link" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+          <a href="#" class="iv-footer__social-link" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+              </path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="iv-modal-overlay"></div>
+  <div class="iv-modal" id="enquiryModal">
+    <!-- Abbreviated -->
+    <div class="iv-modal__header">
+      <h2 class="iv-modal__title">START A PROJECT</h2>
+      <button class="iv-modal__close">Close</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

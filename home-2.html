@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ironvolt Motorcycles | Custom Builds & Restoration</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="description"
+    content="Ironvolt Motorcycles is a premium custom motorcycle build and restoration workshop specializing in handcrafted motorcycles, fabrication, and bespoke mechanical work.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ironvolt Motorcycles | Custom Builds & Restoration">
+  <meta property="og:description"
+    content="Premium custom motorcycle build and restoration workshop. Built by hand. Built to be remembered.">
+  <meta property="og:image" content="assets/images/hero-motorcycle.jpg">
+  <link rel="canonical" href="https://example-ironvolt.com/home-2.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <a href="#main-content" class="iv-skip-link">Skip to content</a>
+
+  <!-- ============================================ -->
+  <!-- HEADER / NAVBAR                              -->
+  <!-- ============================================ -->
+  <header class="iv-header">
+    <div class="iv-container">
+      <div class="iv-header__inner">
+        <a href="index.html" class="iv-logo" aria-label="Ironvolt Motorcycles Home">
+          <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
+            <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
+            <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+          </svg>
+          <div class="iv-logo__text">
+            <span class="iv-logo__name">Ironvolt</span>
+          </div>
+        </a>
+
+        <nav class="iv-nav" aria-label="Main Navigation">
+          <a href="index.html" class="iv-nav__link">Home</a>
+          <a href="home-2.html" class="iv-nav__link active">Home 2</a>
+          <a href="about.html" class="iv-nav__link">About</a>
+          <a href="services.html" class="iv-nav__link">Services</a>
+          <a href="portfolio.html" class="iv-nav__link">Portfolio</a>
+          <a href="pricing-guide.html" class="iv-nav__link">Pricing Guide</a>
+          <a href="contact.html" class="iv-nav__link">Contact</a>
+        </nav>
+
+        <div class="iv-header__actions">
+          <button class="iv-header__action-btn js-rtl-toggle" aria-label="Toggle RTL">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 12h18" />
+              <path d="M3 12l6-6" />
+              <path d="M3 12l6 6" />
+            </svg>
+          </button>
+          <button class="iv-header__action-btn js-theme-toggle" aria-label="Toggle Theme"></button>
+          <div class="iv-header__cta">
+            <a href="enquiry.html" class="iv-btn iv-btn--primary iv-btn--sm ">
+              Project Enquiry
+              <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <button class="iv-hamburger" aria-label="Toggle Mobile Menu" aria-expanded="false">
+          <span class="iv-hamburger__lines">
+            <span class="iv-hamburger__line"></span>
+            <span class="iv-hamburger__line"></span>
+            <span class="iv-hamburger__line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="iv-mobile-nav">
+    <a href="index.html" class="iv-mobile-nav__link">Home</a>
+    <a href="home-2.html" class="iv-mobile-nav__link active">Home 2</a>
+    <a href="about.html" class="iv-mobile-nav__link">About</a>
+    <a href="services.html" class="iv-mobile-nav__link">Services</a>
+    <a href="portfolio.html" class="iv-mobile-nav__link">Portfolio</a>
+    <a href="pricing-guide.html" class="iv-mobile-nav__link">Pricing Guide</a>
+    <a href="contact.html" class="iv-mobile-nav__link">Contact</a>
+
+    <div class="iv-mobile-nav__cta">
+      <a href="enquiry.html" class="iv-btn iv-btn--primary" style="width: 100%; justify-content: center;">
+        Project Enquiry
+      </a>
+    </div>
+
+    <div class="iv-mobile-nav__controls">
+      <button class="iv-mobile-nav__toggle js-theme-toggle">Dark Mode</button>
+      <button class="iv-mobile-nav__toggle js-rtl-toggle">RTL Mode</button>
+    </div>
+  </div>
+  <div class="iv-mobile-overlay"></div>
+
+
+
+  <main id="main-content">
+
+    <!-- ============================================ -->
+    <!-- HOME 2 — SECTION 01 — HERO                   -->
+    <!-- ============================================ -->
+    <section class="iv-hero iv-hero--split">
+      <div class="iv-hero__left">
+        <div class="iv-reveal iv-reveal--left">
+          <span class="label iv-hero__label">Custom & Restoration Workshop</span>
+          <h1 class="iv-hero__title">RESTORE<br>THE MACHINE.</h1>
+          <p class="iv-hero__subtitle text-white opacity-75">From tired classics to complete custom builds, every
+            project begins with understanding the motorcycle.</p>
+
+          <div class="iv-hero__actions" style="justify-content: flex-start;">
+            <a href="portfolio.html" class="iv-btn iv-btn--primary">
+              Explore Projects
+              <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="iv-hero__right iv-reveal iv-reveal--scale" style="width: 100%;">
+        <img src="assets/images/home2-hero.jpg" alt="Motorcycle in workshop" loading="eager"
+          style="width: 100%; height: 100vh; object-fit: cover;">
+        <div class="iv-hero__overlays">
+          <div class="iv-hero__overlay-tags">
+            <span class="iv-hero__overlay-tag">FRAME</span>
+            <span class="iv-hero__overlay-tag">ENGINE</span>
+            <span class="iv-hero__overlay-tag">FABRICATION</span>
+            <span class="iv-hero__overlay-tag">FINISH</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- HOME 2 — SECTION 02 — DISASSEMBLY TO BUILD   -->
+    <!-- ============================================ -->
+    <section class="iv-section">
+      <div class="iv-container">
+        <div class="text-center mb-5 iv-reveal">
+          <div class="section-number mb-3">01 // PROCESS</div>
+          <h2>THE BUILD TIMELINE</h2>
+        </div>
+
+        <div class="iv-timeline">
+          <div class="iv-timeline__line"></div>
+          <div class="iv-timeline__progress"
+            style="position: absolute; top: calc(var(--space-2xl) + 20px); left: 0; height: 2px;"></div>
+          <div class="iv-timeline__step">
+            <div class="iv-timeline__dot"></div>
+            <div class="iv-timeline__number">01</div>
+            <div class="iv-timeline__title">DISASSEMBLE</div>
+            <p class="iv-timeline__desc">Stripping the machine down to the bare frame.</p>
+            <img class="iv-timeline__image" src="assets/images/timeline2.jpg" alt="Disassemble phase">
+          </div>
+
+
+
+          <div class="iv-timeline__step">
+            <div class="iv-timeline__dot"></div>
+            <div class="iv-timeline__number">02</div>
+            <div class="iv-timeline__title">FABRICATE</div>
+            <p class="iv-timeline__desc">Custom metalwork, welding, frame modification.</p>
+            <img class="iv-timeline__image" src="assets/images/timeline4.jpg" alt="Fabricate phase">
+          </div>
+
+          <div class="iv-timeline__step">
+            <div class="iv-timeline__dot"></div>
+            <div class="iv-timeline__number">03</div>
+            <div class="iv-timeline__title">FINISH</div>
+            <p class="iv-timeline__desc">Paint, powder coat, plating, and final materials.</p>
+            <img class="iv-timeline__image" src="assets/images/timeline5.jpg" alt="Finish phase">
+          </div>
+
+          <div class="iv-timeline__step">
+            <div class="iv-timeline__dot"></div>
+            <div class="iv-timeline__number">04</div>
+            <div class="iv-timeline__title">ASSEMBLE</div>
+            <p class="iv-timeline__desc">Wiring, testing, and final motorcycle assembly.</p>
+            <img class="iv-timeline__image" src="assets/images/timeline6.jpg" alt="Assemble phase">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- HOME 2 — SECTION 03 — THE PARTS TABLE        -->
+    <!-- ============================================ -->
+    <section class="iv-section iv-section--dark">
+      <div class="iv-container">
+        <div class="mb-5 iv-reveal">
+          <div class="section-number mb-3">02 // COMPONENTS</div>
+          <h2>THE PARTS TABLE</h2>
+        </div>
+
+        <div class="iv-parts-table iv-reveal iv-reveal--d1">
+          <div class="iv-parts-list">
+
+            <div class="iv-parts-item active" data-title="ENGINE BLOCK"
+              data-desc="Complete teardown, vapor blasting, and rebuilding of the motor for reliable performance."
+              data-scope="Extensive" data-finish="Vapor Blasted / Ceramic">
+              <div class="iv-parts-item__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="iv-parts-item__name">ENGINE</div>
+            </div>
+
+            <div class="iv-parts-item" data-title="CHASSIS & FRAME"
+              data-desc="Detabbing, welding, hoop installation, and structural modifications to alter the motorcycle's stance."
+              data-scope="Moderate to Extensive" data-finish="Powder Coated">
+              <div class="iv-parts-item__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+                </svg>
+              </div>
+              <div class="iv-parts-item__name">FRAME</div>
+            </div>
+
+            <div class="iv-parts-item" data-title="WHEELS & SUSPENSION"
+              data-desc="Lacing new rims, upgrading forks, custom rear shocks, and modern braking systems."
+              data-scope="Moderate" data-finish="Anodized / Polished">
+              <div class="iv-parts-item__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <line x1="12" y1="2" x2="12" y2="9"></line>
+                  <line x1="12" y1="15" x2="12" y2="22"></line>
+                  <line x1="2" y1="12" x2="9" y2="12"></line>
+                  <line x1="15" y1="12" x2="22" y2="12"></line>
+                </svg>
+              </div>
+              <div class="iv-parts-item__name">WHEELS & SUSPENSION</div>
+            </div>
+
+            <div class="iv-parts-item" data-title="CUSTOM EXHAUST"
+              data-desc="Hand-fabricated stainless steel or titanium exhaust systems built for sound, performance, and line flow."
+              data-scope="Moderate" data-finish="Brushed / Welded">
+              <div class="iv-parts-item__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <path
+                    d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16">
+                  </path>
+                </svg>
+              </div>
+              <div class="iv-parts-item__name">EXHAUST</div>
+            </div>
+
+            <div class="iv-parts-item" data-title="ELECTRICAL WIRING"
+              data-desc="Complete custom wiring harness, modern digital controllers (Motogadget), and LED lighting integration."
+              data-scope="Extensive" data-finish="Minimalist / Hidden">
+              <div class="iv-parts-item__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+                </svg>
+              </div>
+              <div class="iv-parts-item__name">ELECTRICAL</div>
+            </div>
+
+          </div>
+
+          <div class="iv-parts-detail">
+            <h3 class="iv-parts-detail__title" id="partTitle">ENGINE BLOCK</h3>
+            <p class="text-muted mb-4" id="partDesc">Complete teardown, vapor blasting, and rebuilding of the motor for
+              reliable performance.</p>
+
+            <div class="iv-parts-detail__row">
+              <span class="iv-parts-detail__label">Build Consideration</span>
+              <span class="iv-parts-detail__value" id="partScope">Extensive</span>
+            </div>
+            <div class="iv-parts-detail__row">
+              <span class="iv-parts-detail__label">Typical Finish</span>
+              <span class="iv-parts-detail__value" id="partFinish">Vapor Blasted / Ceramic</span>
+            </div>
+
+            <div class="mt-4">
+              <a href="services.html" class="iv-btn iv-btn--outline iv-btn--sm">View Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- HOME 2 — SECTION 04 — BUILD TYPES            -->
+    <!-- ============================================ -->
+    <section class="iv-section">
+      <div class="iv-container">
+        <div class="mb-5 iv-reveal">
+          <div class="section-number mb-3">03 // CATEGORIES</div>
+          <h2>SELECT A BUILD TYPE</h2>
+        </div>
+
+        <div class="iv-build-selector iv-reveal iv-reveal--d1">
+          <div class="iv-build-selector__tabs">
+            <button class="iv-build-selector__tab active" data-target="b-restoration">RESTORATION</button>
+            <button class="iv-build-selector__tab" data-target="b-custom">CUSTOM BUILD</button>
+            <button class="iv-build-selector__tab" data-target="b-fabrication">FABRICATION</button>
+            <button class="iv-build-selector__tab" data-target="b-engine">ENGINE REBUILD</button>
+          </div>
+
+          <div class="iv-build-selector__content active" id="b-restoration">
+            <img src="assets/images/category1.jpg" alt="Restoration Build" class="iv-build-selector__img">
+            <div class="iv-build-selector__info">
+              <h3>CLASSIC RESTORATION</h3>
+              <p>Returning a vintage machine back to factory specifications. This involves sourcing original parts,
+                repairing damaged components, and applying period-correct finishes to preserve history.</p>
+              <div class="iv-build-selector__services">
+                <span class="iv-build-selector__service">Assessment</span>
+                <span class="iv-build-selector__service">Sourcing</span>
+                <span class="iv-build-selector__service">Paint Match</span>
+              </div>
+              <a href="#" class="iv-btn iv-btn--outline iv-btn--sm">View Details</a>
+            </div>
+          </div>
+
+          <div class="iv-build-selector__content" id="b-custom">
+            <img src="assets/images/category2.jpg" alt="Custom Build" class="iv-build-selector__img">
+            <div class="iv-build-selector__info">
+              <h3>FULL CUSTOM BUILD</h3>
+              <p>Reimagining the motorcycle entirely. Modifying the frame, upgrading suspension, rewiring, and
+                hand-crafting new bodywork to create a unique Cafe Racer, Scrambler, or Tracker.</p>
+              <div class="iv-build-selector__services">
+                <span class="iv-build-selector__service">Design</span>
+                <span class="iv-build-selector__service">Frame Mods</span>
+                <span class="iv-build-selector__service">Modern Wiring</span>
+              </div>
+              <a href="#" class="iv-btn iv-btn--outline iv-btn--sm">View Details</a>
+            </div>
+          </div>
+
+          <div class="iv-build-selector__content" id="b-fabrication">
+            <img src="assets/images/category3.jpg" alt="Fabrication" class="iv-build-selector__img">
+            <div class="iv-build-selector__info">
+              <h3>CUSTOM FABRICATION</h3>
+              <p>Engineering metal solutions for unique builds. Shaping aluminum tanks, welding custom exhausts, and
+                creating mounting brackets that blend seamlessly into the machine.</p>
+              <div class="iv-build-selector__services">
+                <span class="iv-build-selector__service">Welding</span>
+                <span class="iv-build-selector__service">Sheet Metal</span>
+                <span class="iv-build-selector__service">Machining</span>
+              </div>
+              <a href="#" class="iv-btn iv-btn--outline iv-btn--sm">View Details</a>
+            </div>
+          </div>
+
+          <div class="iv-build-selector__content" id="b-engine">
+            <img src="assets/images/category4.jpg" alt="Engine Rebuild" class="iv-build-selector__img">
+            <div class="iv-build-selector__info">
+              <h3>ENGINE REBUILDING</h3>
+              <p>Restoring power and reliability. Disassembly, vapor blasting, replacing seals and bearings, valve jobs,
+                and careful reassembly to ensure the motor runs flawlessly.</p>
+              <div class="iv-build-selector__services">
+                <span class="iv-build-selector__service">Teardown</span>
+                <span class="iv-build-selector__service">Vapor Blasting</span>
+                <span class="iv-build-selector__service">Reassembly</span>
+              </div>
+              <a href="#" class="iv-btn iv-btn--outline iv-btn--sm">View Details</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- HOME 2 — SECTION 05 — BEFORE / AFTER         -->
+    <!-- ============================================ -->
+    <section class="iv-section iv-section--dark">
+      <div class="iv-container">
+        <div class="text-center mb-5 iv-reveal">
+          <div class="section-number mb-3">04 // TRANSFORMATION</div>
+          <h2>BEFORE & AFTER</h2>
+        </div>
+
+        <div class="iv-ba-slider iv-reveal iv-reveal--d1">
+          <div class="iv-ba-slider__label iv-ba-slider__label--after">AFTER</div>
+          <div class="iv-ba-slider__after">
+            <!-- Simulating AFTER state with the custom build -->
+            <img src="assets/images/before.jpg" alt="Restored Custom Motorcycle" draggable="false">
+          </div>
+
+          <div class="iv-ba-slider__label iv-ba-slider__label--before">BEFORE</div>
+          <div class="iv-ba-slider__before">
+            <!-- Simulating BEFORE state with the rusty restoration bike -->
+            <img src="assets/images/after.jpg" alt="Rusty Vintage Motorcycle" draggable="false">
+          </div>
+
+          <div class="iv-ba-slider__handle">
+            <div class="iv-ba-slider__handle-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+                <polyline points="9 18 3 12 9 6"></polyline>
+                <polyline points="21 18 15 12 21 6"></polyline>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- HOME 2 — SECTION 06 — FINAL CTA              -->
+    <!-- ============================================ -->
+    <section class="iv-cta iv-section border-top border-subtle">
+      <div class="iv-container">
+        <div class="iv-reveal iv-reveal--scale">
+          <div class="section-number mb-3">05 // CONTACT</div>
+          <h2>EVERY BUILD STARTS WITH<br>A CONVERSATION.</h2>
+          <p>Bring us the motorcycle, the idea, or simply the question.</p>
+
+          <div class="iv-cta__actions mt-5">
+            <a href="enquiry.html" class="iv-btn iv-btn--primary ">
+              Start Project Enquiry
+              <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================ -->
+  <!-- FOOTER                                       -->
+  <!-- ============================================ -->
+  <footer class="iv-footer">
+    <div class="iv-container">
+      <div class="iv-footer__grid">
+
+        <div>
+          <a href="index.html" class="iv-logo mb-4" aria-label="Ironvolt Motorcycles Home"
+            style="display: flex; align-items: center; gap: 0.75rem;">
+            <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
+              <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
+              <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+            </svg>
+            <div class="iv-logo__text" style="text-align: left;">
+              <span class="iv-footer__brand-name"
+                style="margin-bottom: 0; line-height: 1; display: block;">IRONVOLT</span>
+            </div>
+          </a>
+          <p class="iv-footer__brand-text">Premium custom motorcycle build and restoration workshop specializing in
+            handcrafted motorcycles, fabrication, and bespoke mechanical work.</p>
+        </div>
+
+        <div>
+          <h4 class="iv-footer__heading">EXPLORE</h4>
+          <div class="iv-footer__links">
+            <a href="index.html" class="iv-footer__link">Home</a>
+            <a href="home-2.html" class="iv-footer__link">Home 2</a>
+            <a href="about.html" class="iv-footer__link">About</a>
+            <a href="services.html" class="iv-footer__link">Services</a>
+            <a href="portfolio.html" class="iv-footer__link">Portfolio</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="iv-footer__heading">WORKSHOP</h4>
+          <div class="iv-footer__links">
+            <a href="services.html#restoration" class="iv-footer__link">Restoration</a>
+            <a href="services.html#custom" class="iv-footer__link">Custom Builds</a>
+            <a href="services.html#fabrication" class="iv-footer__link">Fabrication</a>
+            <a href="services.html#engine" class="iv-footer__link">Engine Rebuilds</a>
+            <a href="pricing-guide.html" class="iv-footer__link">Pricing Guide</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="iv-footer__heading">CONTACT</h4>
+          <div class="iv-footer__contact-item">
+            <div class="iv-footer__contact-label">Address</div>
+            <div class="iv-footer__contact-value">123 Industrial Parkway, Unit B<br>Moto District, CA 90210</div>
+          </div>
+          <div class="iv-footer__contact-item">
+            <div class="iv-footer__contact-label">Phone</div>
+            <div class="iv-footer__contact-value">+1 (555) 123-4567</div>
+          </div>
+          <div class="iv-footer__contact-item">
+            <div class="iv-footer__contact-label">Email</div>
+            <div class="iv-footer__contact-value">builds@example-ironvolt.com</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="iv-footer__bottom">
+        <div class="iv-footer__copyright">
+          &copy; 2026 Ironvolt Motorcycles. All Rights Reserved.
+        </div>
+        <div class="iv-footer__social">
+          <a href="#" class="iv-footer__social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="#" class="iv-footer__social-link" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+          <a href="#" class="iv-footer__social-link" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+              </path>
+              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="iv-back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
