@@ -155,7 +155,7 @@
           <div style="flex: 1; height: 1px; background: var(--color-primary); opacity: 0.3;"></div>
         </div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+        <div class="iv-unique-grid">
 
           <!-- LEFT — Text Column -->
           <div class="iv-reveal iv-reveal--left">
@@ -200,8 +200,7 @@
             </div>
 
             <!-- Stats Row -->
-            <div
-              style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+            <div class="iv-unique-stats">
               <div>
                 <div
                   style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 700; color: var(--color-primary); line-height: 1;">
@@ -227,7 +226,7 @@
           <div class="iv-reveal iv-reveal--right" style="position: relative;">
             <div style="position: relative; overflow: hidden; border-radius: var(--radius-sm); border: 1px solid var(--border-color); box-shadow: 0 20px 40px rgba(0,0,0,0.4);">
               <img src="assets/images/philosophy.jpg" alt="Ironvolt fabrication workshop and artisan motorcycle craft"
-                style="width: 100%; height: 520px; object-fit: cover; display: block;">
+                class="iv-unique-img">
               <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); padding: 2rem 1.5rem 1.25rem;">
                 <span class="badge" style="background: var(--color-primary); color: #000; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">HANDCRAFTED IN-HOUSE</span>
                 <div style="color: #fff; font-family: var(--font-heading); font-size: 1.1rem; margin-top: 0.5rem; letter-spacing: 0.05em;">EVERY WELD, FINISH, &amp; BOLT VERIFIED</div>
@@ -253,28 +252,28 @@
         <div class="row g-4 mb-5">
           <div class="col-lg-3 col-md-6 iv-reveal iv-reveal--d1">
             <div class="p-4 border border-secondary h-100 iv-workshop-card" style="background: var(--bg-card); border-radius: var(--radius-sm);">
-              <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 700; color: var(--color-primary); margin-bottom: 0.5rem;">+25%</div>
+              <div class="iv-test-stat-num" style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem;">+25%</div>
               <h4 class="mb-2" style="font-size: 1.1rem;">DYNO-TUNED POWER</h4>
               <p class="text-muted small mb-0">Air-fuel curves mapped on our dynamometer. Carburetors synchronized and jetting dialed in for instant roll-on acceleration and smooth torque delivery.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 iv-reveal iv-reveal--d2">
             <div class="p-4 border border-secondary h-100 iv-workshop-card" style="background: var(--bg-card); border-radius: var(--radius-sm);">
-              <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 700; color: var(--color-primary); margin-bottom: 0.5rem;">-42 KG</div>
+              <div class="iv-test-stat-num" style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem;">-42 KG</div>
               <h4 class="mb-2" style="font-size: 1.1rem;">WEIGHT SHEDDING</h4>
               <p class="text-muted small mb-0">Unsprung and total mass dramatically reduced through hand-beaten aluminum bodywork, titanium hardware, lightweight spoked rims, and lithium power.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 iv-reveal iv-reveal--d3">
             <div class="p-4 border border-secondary h-100 iv-workshop-card" style="background: var(--bg-card); border-radius: var(--radius-sm);">
-              <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 700; color: var(--color-primary); margin-bottom: 0.5rem;">0.02 mm</div>
+              <div class="iv-test-stat-num" style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem;">0.02 mm</div>
               <h4 class="mb-2" style="font-size: 1.1rem;">MACHINING SPEC</h4>
               <p class="text-muted small mb-0">Crankshaft blueprinting, cylinder bore cross-hatching, and custom wheel spacing machined to aerospace tolerances for vibration-free running.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 iv-reveal iv-reveal--d4">
             <div class="p-4 border border-secondary h-100 iv-workshop-card" style="background: var(--bg-card); border-radius: var(--radius-sm);">
-              <div style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 700; color: var(--color-primary); margin-bottom: 0.5rem;">250 MI</div>
+              <div class="iv-test-stat-num" style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem;">250 MI</div>
               <h4 class="mb-2" style="font-size: 1.1rem;">ROAD SHAKEDOWN</h4>
               <p class="text-muted small mb-0">Before customer delivery, every motorcycle undergoes 250 miles of highway, city, and canyon test-riding followed by post-run fastener retorquing.</p>
             </div>
@@ -458,7 +457,6 @@
             <div class="iv-logo__text" style="text-align: left;">
               <span class="iv-footer__brand-name"
                 style="margin-bottom: 0; line-height: 1; display: block;">IRONVOLT</span>
-              <span class="iv-logo__desc" style="display: block; letter-spacing: 0.18em; font-size: 0.65rem; color: var(--color-primary);">CUSTOMS &amp; RESTORATION</span>
             </div>
           </a>
           <p class="iv-footer__brand-text">Premium custom motorcycle build and restoration workshop specializing in
