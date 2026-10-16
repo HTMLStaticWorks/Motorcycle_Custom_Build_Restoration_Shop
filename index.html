@@ -42,14 +42,20 @@
     <div class="iv-container">
       <div class="iv-header__inner">
         <!-- Logo -->
-        <a href="index.html" class="iv-logo" aria-label="Ironvolt Motorcycles Home">
-          <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
-            <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
-            <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+        <a href="index.html" class="iv-logo" aria-label="Ironvolt Motorcycles - Custom Builds & Restoration">
+          <svg class="iv-logo__mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"/>
+            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M15 15L33 33M33 15L15 33" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+            <path d="M17 13H31V17H17V13Z" fill="currentColor"/>
+            <path d="M19 17L17 27L24 32L31 27L29 17H19Z" fill="currentColor" opacity="0.85"/>
+            <line x1="16" y1="20" x2="32" y2="20" stroke="var(--bg-card, #141416)" stroke-width="1.5"/>
+            <line x1="17" y1="23.5" x2="31" y2="23.5" stroke="var(--bg-card, #141416)" stroke-width="1.5"/>
+            <path d="M25 15L20 24H27L22 33L29 22H22L25 15Z" fill="var(--color-primary, #d88935)"/>
+            <path d="M14 38L24 43L34 38" stroke="var(--color-primary, #d88935)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
           <div class="iv-logo__text">
-            <span class="iv-logo__name">Ironvolt</span>
+            <span class="iv-logo__name">IRONVOLT</span>
           </div>
         </a>
 
@@ -340,7 +346,7 @@
               <h3 class="iv-service-card__title">CUSTOM BUILDS</h3>
               <p class="iv-service-card__desc">Complete bespoke motorcycle design and assembly. From bare frame to final
                 finish, we construct machines that reflect individual character and uncompromising performance.</p>
-              <a href="#" class="iv-btn iv-btn--ghost">
+              <a href="services.html#custom" class="iv-btn iv-btn--ghost">
                 Discover More
                 <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2">
@@ -349,7 +355,9 @@
                 </svg>
               </a>
             </div>
-            <img class="iv-service-card__img" src="assets/images/expertise1.jpg" alt="Custom Builds" loading="lazy">
+            <div class="iv-service-card__img-wrap">
+              <img class="iv-service-card__img" src="assets/images/expertise1.jpg" alt="Custom Builds" loading="lazy">
+            </div>
           </div>
 
           <!-- Service 2 -->
@@ -359,7 +367,7 @@
               <h3 class="iv-service-card__title">RESTORATION</h3>
               <p class="iv-service-card__desc">Bringing classic motorcycles back to factory specification or better.
                 Meticulous teardowns, parts sourcing, and faithful reassembly for vintage machines.</p>
-              <a href="#" class="iv-btn iv-btn--ghost">
+              <a href="services.html#restoration" class="iv-btn iv-btn--ghost">
                 Discover More
                 <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2">
@@ -368,7 +376,9 @@
                 </svg>
               </a>
             </div>
-            <img class="iv-service-card__img" src="assets/images/expertise2.jpg" alt="Restoration" loading="lazy">
+            <div class="iv-service-card__img-wrap">
+              <img class="iv-service-card__img" src="assets/images/expertise2.jpg" alt="Restoration" loading="lazy">
+            </div>
           </div>
 
           <!-- Service 3 -->
@@ -378,7 +388,7 @@
               <h3 class="iv-service-card__title">FABRICATION</h3>
               <p class="iv-service-card__desc">Custom metalwork, welding, frame modifications, and one-off component
                 creation. If the part doesn't exist, we engineer and build it in-house.</p>
-              <a href="#" class="iv-btn iv-btn--ghost">
+              <a href="services.html#fabrication" class="iv-btn iv-btn--ghost">
                 Discover More
                 <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2">
@@ -387,17 +397,19 @@
                 </svg>
               </a>
             </div>
-            <img class="iv-service-card__img" src="assets/images/expertise3.jpg" alt="Fabrication" loading="lazy">
+            <div class="iv-service-card__img-wrap">
+              <img class="iv-service-card__img" src="assets/images/expertise3.jpg" alt="Fabrication" loading="lazy">
+            </div>
           </div>
 
-          <!-- Service 4 (Placeholder image) -->
+          <!-- Service 4 -->
           <div class="iv-service-card iv-reveal iv-reveal--right">
             <div class="iv-service-card__number">04</div>
             <div class="iv-service-card__content">
               <h3 class="iv-service-card__title">ENGINE REBUILDS</h3>
               <p class="iv-service-card__desc">Top-end refreshes to complete engine overhauls. We clean, inspect,
                 machine, and rebuild motors for optimal reliability and smooth operation.</p>
-              <a href="#" class="iv-btn iv-btn--ghost">
+              <a href="services.html#engine" class="iv-btn iv-btn--ghost">
                 Discover More
                 <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2">
@@ -406,7 +418,9 @@
                 </svg>
               </a>
             </div>
-            <img class="iv-service-card__img" src="assets/images/expertise4.jpg" alt="Engine Rebuilds" loading="lazy">
+            <div class="iv-service-card__img-wrap">
+              <img class="iv-service-card__img" src="assets/images/expertise4.jpg" alt="Engine Rebuilds" loading="lazy">
+            </div>
           </div>
 
         </div>
@@ -490,16 +504,23 @@
       <div class="iv-footer__grid">
 
         <div>
-          <a href="index.html" class="iv-logo mb-4" aria-label="Ironvolt Motorcycles Home"
+          <a href="index.html" class="iv-logo mb-4" aria-label="Ironvolt Motorcycles - Custom Builds & Restoration"
             style="display: flex; align-items: center; gap: 0.75rem;">
-            <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
-              <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
-              <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+            <svg class="iv-logo__mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" stroke-dasharray="3 2" opacity="0.6"/>
+              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M15 15L33 33M33 15L15 33" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+              <path d="M17 13H31V17H17V13Z" fill="currentColor"/>
+              <path d="M19 17L17 27L24 32L31 27L29 17H19Z" fill="currentColor" opacity="0.85"/>
+              <line x1="16" y1="20" x2="32" y2="20" stroke="var(--bg-card, #141416)" stroke-width="1.5"/>
+              <line x1="17" y1="23.5" x2="31" y2="23.5" stroke="var(--bg-card, #141416)" stroke-width="1.5"/>
+              <path d="M25 15L20 24H27L22 33L29 22H22L25 15Z" fill="var(--color-primary, #d88935)"/>
+              <path d="M14 38L24 43L34 38" stroke="var(--color-primary, #d88935)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <div class="iv-logo__text" style="text-align: left;">
               <span class="iv-footer__brand-name"
                 style="margin-bottom: 0; line-height: 1; display: block;">IRONVOLT</span>
+              <span class="iv-logo__desc" style="display: block; letter-spacing: 0.18em; font-size: 0.65rem; color: var(--color-primary);">CUSTOMS &amp; RESTORATION</span>
             </div>
           </a>
           <p class="iv-footer__brand-text">Premium custom motorcycle build and restoration workshop specializing in

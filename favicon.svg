@@ -1,5 +1,11 @@
-<svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="21" cy="21" r="20" stroke="#000" stroke-width="2"/>
-  <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="#000"/>
-  <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="#FF5E00"/>
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="24" cy="24" r="22" stroke="#d88935" stroke-width="2" stroke-dasharray="3 2"/>
+  <circle cx="24" cy="24" r="18" stroke="#e0e0e0" stroke-width="1.5"/>
+  <path d="M15 15L33 33M33 15L15 33" stroke="#888888" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <path d="M17 13H31V17H17V13Z" fill="#e0e0e0"/>
+  <path d="M19 17L17 27L24 32L31 27L29 17H19Z" fill="#e0e0e0"/>
+  <line x1="16" y1="20" x2="32" y2="20" stroke="#121212" stroke-width="1.5"/>
+  <line x1="17" y1="23.5" x2="31" y2="23.5" stroke="#121212" stroke-width="1.5"/>
+  <path d="M25 15L20 24H27L22 33L29 22H22L25 15Z" fill="#d88935"/>
+  <path d="M14 38L24 43L34 38" stroke="#d88935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

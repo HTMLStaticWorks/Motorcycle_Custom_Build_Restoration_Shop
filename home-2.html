@@ -35,14 +35,25 @@
   <header class="iv-header">
     <div class="iv-container">
       <div class="iv-header__inner">
-        <a href="index.html" class="iv-logo" aria-label="Ironvolt Motorcycles Home">
-          <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
-            <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
-            <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+        <!-- Logo -->
+        <a href="index.html" class="iv-logo" aria-label="Ironvolt Motorcycles - Custom Builds & Restoration">
+          <svg class="iv-logo__mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true">
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" stroke-dasharray="3 2"
+              opacity="0.6" />
+            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5" />
+            <path d="M15 15L33 33M33 15L15 33" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              opacity="0.3" />
+            <path d="M17 13H31V17H17V13Z" fill="currentColor" />
+            <path d="M19 17L17 27L24 32L31 27L29 17H19Z" fill="currentColor" opacity="0.85" />
+            <line x1="16" y1="20" x2="32" y2="20" stroke="var(--bg-card, #141416)" stroke-width="1.5" />
+            <line x1="17" y1="23.5" x2="31" y2="23.5" stroke="var(--bg-card, #141416)" stroke-width="1.5" />
+            <path d="M25 15L20 24H27L22 33L29 22H22L25 15Z" fill="var(--color-primary, #d88935)" />
+            <path d="M14 38L24 43L34 38" stroke="var(--color-primary, #d88935)" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
           </svg>
           <div class="iv-logo__text">
-            <span class="iv-logo__name">Ironvolt</span>
+            <span class="iv-logo__name">IRONVOLT</span>
           </div>
         </a>
 
@@ -122,10 +133,11 @@
     <section class="iv-hero iv-hero--split">
       <div class="iv-hero__left">
         <div class="iv-reveal iv-reveal--left">
-          <span class="label iv-hero__label">Custom & Restoration Workshop</span>
-          <h1 class="iv-hero__title">RESTORE<br>THE MACHINE.</h1>
-          <p class="iv-hero__subtitle text-white opacity-75">From tired classics to complete custom builds, every
-            project begins with understanding the motorcycle.</p>
+          <span class="label iv-hero__label mb-3">★ BESPOKE MOTORCYCLE BUILDS &amp; CONCOURS RESTORATION</span>
+          <h1 class="iv-hero__title">RESTORE THE MACHINE.<br>CRAFT THE LEGEND.</h1>
+          <p class=" text-white opacity-75">From tired barn-find classics to ground-up bespoke custom
+            builds. Handcrafted frame fabrication, vapor-honed engine overhauls, and precision mechanical engineering
+            shaped around the machine and the rider.</p>
 
           <div class="iv-hero__actions" style="justify-content: flex-start;">
             <a href="portfolio.html" class="iv-btn iv-btn--primary">
@@ -136,14 +148,27 @@
                 <polyline points="12 5 19 12 12 19"></polyline>
               </svg>
             </a>
+            <a href="enquiry.html" class="iv-btn iv-btn--outline">
+              Start A Build
+              <svg class="iv-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
           </div>
+
+
+
+
         </div>
       </div>
-      <div class="iv-hero__right iv-reveal iv-reveal--scale" style="width: 100%;">
-        <img src="assets/images/home2-hero.jpg" alt="Motorcycle in workshop" loading="eager"
-          style="width: 100%; height: 100vh; object-fit: cover;">
+      <div class="iv-hero__right iv-reveal iv-reveal--right">
+        <div class="iv-hero__img-frame">
+          <img src="assets/images/home2-hero.jpg" alt="Artisan motorcycle mechanic restoring cafe racer in workshop"
+            loading="eager" width="800" height="600">
 
-      </div>
+        </div>
       </div>
     </section>
 
@@ -211,91 +236,90 @@
         <div class="iv-parts-table iv-reveal iv-reveal--d1">
           <div class="iv-parts-list">
 
+            <!-- Engine Block -->
             <div class="iv-parts-item active" data-title="ENGINE BLOCK"
-              data-desc="Complete teardown, vapor blasting, and rebuilding of the motor for reliable performance."
-              data-scope="Extensive" data-finish="Vapor Blasted / Ceramic">
-              <div class="iv-parts-item__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2">
-                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                </svg>
+              data-desc="Complete teardown, vapor blasting, micro-polishing, and blueprint rebuilding of classic air-cooled motors for optimal reliability and performance."
+              data-scope="Extensive Overhaul" data-finish="Vapor Blasted / Ceramic Coated"
+              data-image="assets/images/part-engine.jpg" data-badge="01 // ENGINE &amp; POWERTRAIN">
+              <img src="assets/images/part-engine.jpg" alt="Engine Block" class="iv-parts-item__thumb">
+              <div>
+                <div class="iv-parts-item__name">ENGINE BLOCK</div>
+                <div class="small text-muted">Vapor Honing &amp; Blueprint Rebuild</div>
               </div>
-              <div class="iv-parts-item__name">ENGINE</div>
             </div>
 
-            <div class="iv-parts-item" data-title="CHASSIS & FRAME"
-              data-desc="Detabbing, welding, hoop installation, and structural modifications to alter the motorcycle's stance."
-              data-scope="Moderate to Extensive" data-finish="Powder Coated">
-              <div class="iv-parts-item__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2">
-                  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-                </svg>
+            <!-- Frame -->
+            <div class="iv-parts-item" data-title="CHASSIS &amp; FRAME"
+              data-desc="CAD alignment, detabbing, TIG-welded chromoly loops, structural gusseting, and geometry modification for razor-sharp handling dynamics."
+              data-scope="Custom Metalwork" data-finish="Satin Powder Coat / Raw Cleared"
+              data-image="assets/images/part-frame.jpg" data-badge="02 // CHASSIS &amp; GEOMETRY">
+              <img src="assets/images/part-frame.jpg" alt="Chassis and Frame" class="iv-parts-item__thumb">
+              <div>
+                <div class="iv-parts-item__name">CHASSIS &amp; FRAME</div>
+                <div class="small text-muted">TIG Welded Chromoly &amp; Looped Subframe</div>
               </div>
-              <div class="iv-parts-item__name">FRAME</div>
             </div>
 
-            <div class="iv-parts-item" data-title="WHEELS & SUSPENSION"
-              data-desc="Lacing new rims, upgrading forks, custom rear shocks, and modern braking systems."
-              data-scope="Moderate" data-finish="Anodized / Polished">
-              <div class="iv-parts-item__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <circle cx="12" cy="12" r="3"></circle>
-                  <line x1="12" y1="2" x2="12" y2="9"></line>
-                  <line x1="12" y1="15" x2="12" y2="22"></line>
-                  <line x1="2" y1="12" x2="9" y2="12"></line>
-                  <line x1="15" y1="12" x2="22" y2="12"></line>
-                </svg>
+            <!-- Wheels & Suspension -->
+            <div class="iv-parts-item" data-title="WHEELS &amp; SUSPENSION"
+              data-desc="Stainless hand-laced aluminum rims, inverted adjustable forks, custom progressive rear monoshock, and dual radial Brembo calipers."
+              data-scope="High Performance Upgrade" data-finish="Anodized Gold / Polished Alloy"
+              data-image="assets/images/part-suspension.jpg" data-badge="03 // WHEELS &amp; SUSPENSION">
+              <img src="assets/images/part-suspension.jpg" alt="Wheels and Suspension" class="iv-parts-item__thumb">
+              <div>
+                <div class="iv-parts-item__name">WHEELS &amp; SUSPENSION</div>
+                <div class="small text-muted">Inverted Forks &amp; Wire-Laced Rims</div>
               </div>
-              <div class="iv-parts-item__name">WHEELS & SUSPENSION</div>
             </div>
 
+            <!-- Custom Exhaust -->
             <div class="iv-parts-item" data-title="CUSTOM EXHAUST"
-              data-desc="Hand-fabricated stainless steel or titanium exhaust systems built for sound, performance, and line flow."
-              data-scope="Moderate" data-finish="Brushed / Welded">
-              <div class="iv-parts-item__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2">
-                  <path
-                    d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16">
-                  </path>
-                </svg>
+              data-desc="Hand-fabricated pie-cut titanium or 304 stainless steel exhaust headers, tuned collector, and internal baffle built for signature acoustic resonance."
+              data-scope="One-Off Fabrication" data-finish="Pie-Cut Heat Tint / Brushed Stainless"
+              data-image="assets/images/part-exhaust.jpg" data-badge="04 // HANDMADE EXHAUST">
+              <img src="assets/images/part-exhaust.jpg" alt="Custom Exhaust" class="iv-parts-item__thumb">
+              <div>
+                <div class="iv-parts-item__name">CUSTOM EXHAUST</div>
+                <div class="small text-muted">Pie-Cut Welded Titanium / 304 Steel</div>
               </div>
-              <div class="iv-parts-item__name">EXHAUST</div>
             </div>
 
-            <div class="iv-parts-item" data-title="ELECTRICAL WIRING"
-              data-desc="Complete custom wiring harness, modern digital controllers (Motogadget), and LED lighting integration."
-              data-scope="Extensive" data-finish="Minimalist / Hidden">
-              <div class="iv-parts-item__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2">
-                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
-                </svg>
+            <!-- Electrical System -->
+            <div class="iv-parts-item" data-title="ELECTRICAL &amp; M-UNIT"
+              data-desc="Clean invisible wiring looms, Motogadget digital M-Unit controller module, micro push buttons, lithium battery box, and integrated LED lighting."
+              data-scope="Modern Minimalist Rewire" data-finish="Braided Raychem / Hidden Routing"
+              data-image="assets/images/part-electrical.jpg" data-badge="05 // ELECTRONICS &amp; M-UNIT">
+              <img src="assets/images/part-electrical.jpg" alt="Electrical System" class="iv-parts-item__thumb">
+              <div>
+                <div class="iv-parts-item__name">ELECTRICAL &amp; M-UNIT</div>
+                <div class="small text-muted">Motogadget CAN-Bus &amp; Braided Loom</div>
               </div>
-              <div class="iv-parts-item__name">ELECTRICAL</div>
             </div>
 
           </div>
 
           <div class="iv-parts-detail">
+            <div class="iv-parts-detail__media">
+              <img id="partImage" src="assets/images/part-engine.jpg" alt="Engine Block" class="iv-parts-detail__img">
+              <div class="iv-parts-detail__badge" id="partBadge">01 // ENGINE &amp; POWERTRAIN</div>
+            </div>
+
             <h3 class="iv-parts-detail__title" id="partTitle">ENGINE BLOCK</h3>
-            <p class="text-muted mb-4" id="partDesc">Complete teardown, vapor blasting, and rebuilding of the motor for
-              reliable performance.</p>
+            <p class="text-muted mb-4" id="partDesc">Complete teardown, vapor blasting, micro-polishing, and blueprint
+              rebuilding of classic air-cooled motors for optimal reliability and performance.</p>
 
             <div class="iv-parts-detail__row">
               <span class="iv-parts-detail__label">Build Consideration</span>
-              <span class="iv-parts-detail__value" id="partScope">Extensive</span>
+              <span class="iv-parts-detail__value" id="partScope">Extensive Overhaul</span>
             </div>
             <div class="iv-parts-detail__row">
               <span class="iv-parts-detail__label">Typical Finish</span>
-              <span class="iv-parts-detail__value" id="partFinish">Vapor Blasted / Ceramic</span>
+              <span class="iv-parts-detail__value" id="partFinish">Vapor Blasted / Ceramic Coated</span>
             </div>
 
-            <div class="mt-4">
-              <a href="services.html" class="iv-btn iv-btn--outline iv-btn--sm">View Services</a>
+            <div class="mt-4 d-flex gap-2">
+              <a href="services.html" class="iv-btn iv-btn--primary iv-btn--sm">View Workshop Services</a>
+              <a href="pricing-guide.html" class="iv-btn iv-btn--outline iv-btn--sm">Estimate Cost</a>
             </div>
           </div>
         </div>
@@ -456,47 +480,60 @@
       <div class="iv-footer__grid">
 
         <div>
-          <a href="index.html" class="iv-logo mb-4" aria-label="Ironvolt Motorcycles Home"
+          <a href="index.html" class="iv-logo mb-4" aria-label="Ironvolt Motorcycles - Custom Builds & Restoration"
             style="display: flex; align-items: center; gap: 0.75rem;">
-            <svg class="iv-logo__mark" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="21" cy="21" r="20" stroke="currentColor" stroke-width="2" />
-              <path d="M21 7L31 28H23.5L21 23L18.5 28H11L21 7Z" fill="currentColor" />
-              <path d="M25 15L21 21H29L17 29L21 23H13L25 15Z" fill="var(--color-primary)" />
+            <svg class="iv-logo__mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true">
+              <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" stroke-dasharray="3 2"
+                opacity="0.6" />
+              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5" />
+              <path d="M15 15L33 33M33 15L15 33" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                opacity="0.3" />
+              <path d="M17 13H31V17H17V13Z" fill="currentColor" />
+              <path d="M19 17L17 27L24 32L31 27L29 17H19Z" fill="currentColor" opacity="0.85" />
+              <line x1="16" y1="20" x2="32" y2="20" stroke="var(--bg-card, #141416)" stroke-width="1.5" />
+              <line x1="17" y1="23.5" x2="31" y2="23.5" stroke="var(--bg-card, #141416)" stroke-width="1.5" />
+              <path d="M25 15L20 24H27L22 33L29 22H22L25 15Z" fill="var(--color-primary, #d88935)" />
+              <path d="M14 38L24 43L34 38" stroke="var(--color-primary, #d88935)" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
             </svg>
             <div class="iv-logo__text" style="text-align: left;">
               <span class="iv-footer__brand-name"
                 style="margin-bottom: 0; line-height: 1; display: block;">IRONVOLT</span>
+              <span class="iv-logo__desc"
+                style="display: block; letter-spacing: 0.18em; font-size: 0.65rem; color: var(--color-primary);">CUSTOMS
+                &amp; RESTORATION</span>
             </div>
           </a>
           <p class="iv-footer__brand-text">Premium custom motorcycle build and restoration workshop specializing in
             handcrafted motorcycles, fabrication, and bespoke mechanical work.</p>
-        
+
           <div class="iv-footer__social">
-          <a href="#" class="iv-footer__social-link" aria-label="Instagram">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-            </svg>
-          </a>
-          <a href="#" class="iv-footer__social-link" aria-label="Facebook">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-            </svg>
-          </a>
-          <a href="#" class="iv-footer__social-link" aria-label="YouTube">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path
-                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
-              </path>
-              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-            </svg>
-          </a>
+            <a href="#" class="iv-footer__social-link" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="iv-footer__social-link" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" class="iv-footer__social-link" aria-label="YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                </path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+            </a>
+          </div>
         </div>
-</div>
 
         <div>
           <h4 class="iv-footer__heading">EXPLORE</h4>
@@ -542,7 +579,7 @@
         <div class="iv-footer__copyright">
           &copy; 2026 Ironvolt Motorcycles. All Rights Reserved.
         </div>
-        
+
       </div>
     </div>
   </footer>
