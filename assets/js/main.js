@@ -484,6 +484,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const descEl = document.getElementById('partDesc');
     const scopeEl = document.getElementById('partScope');
     const finishEl = document.getElementById('partFinish');
+    const imageEl = document.getElementById('partImage');
+    const badgeEl = document.getElementById('partBadge');
     
     partItems.forEach(item => {
       item.addEventListener('click', () => {
@@ -494,6 +496,17 @@ document.addEventListener('DOMContentLoaded', () => {
         if (descEl) descEl.textContent = item.getAttribute('data-desc');
         if (scopeEl) scopeEl.textContent = item.getAttribute('data-scope');
         if (finishEl) finishEl.textContent = item.getAttribute('data-finish');
+        if (badgeEl && item.getAttribute('data-badge')) {
+          badgeEl.textContent = item.getAttribute('data-badge');
+        }
+        if (imageEl && item.getAttribute('data-image')) {
+          imageEl.style.opacity = '0.4';
+          setTimeout(() => {
+            imageEl.src = item.getAttribute('data-image');
+            imageEl.alt = item.getAttribute('data-title') || 'Motorcycle component';
+            imageEl.style.opacity = '1';
+          }, 150);
+        }
       });
     });
   }
